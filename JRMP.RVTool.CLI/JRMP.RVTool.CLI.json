@@ -1,0 +1,14 @@
+{
+  "RVTool": {
+    "IsDebug": "false"
+  },
+  "ConnectionStrings": {
+    "RVTool": "Data Source=(local);Initial Catalog=RVTool;User ID=RVTool_EF;Password=JRMP!@#$%^;"
+  },
+  "LoadAddressDelegations": {
+    "BatchSize": 10000
+  },
+  "LoadBGPPrefixes": {
+    "BatchSize": 50000
+  }
+}
