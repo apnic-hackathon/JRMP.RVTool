@@ -349,7 +349,7 @@ namespace JRMP.RVTool.CLI
                                 PrefixBinary = prefixBinary,
                                 ASPath = asPath,
                                 OriginAS = originAS,
-                                SourceID = sourceID
+                                SourceID = bgpSource.SourceID
                             };
 
                             this._context.BGPPrefixes.Add(newBGPPrefix);
