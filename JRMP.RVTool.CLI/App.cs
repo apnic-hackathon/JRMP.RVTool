@@ -349,7 +349,7 @@ namespace JRMP.RVTool.CLI
                                 PrefixBinary = prefixBinary,
                                 ASPath = asPath,
                                 OriginAS = originAS,
-                                SourceID = 1
+                                SourceID = sourceID
                             };
 
                             this._context.BGPPrefixes.Add(newBGPPrefix);
@@ -359,7 +359,7 @@ namespace JRMP.RVTool.CLI
                     }
                     else
                     {
-                        System.Threading.Thread.Sleep(100);
+                        System.Threading.Thread.Sleep(1000);
                     }
 
                     if (currentSize >= batchSize)
